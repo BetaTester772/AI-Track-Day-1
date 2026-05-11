@@ -81,6 +81,27 @@ out = generator(messages, temperature=0.7, do_sample=True, max_new_tokens=120)
 
 ---
 
+## ❌ Section 5 에서 `KeyError: Unknown task summarization`
+
+**증상**:
+```
+KeyError: "Unknown task summarization, available tasks are [..., 'sentiment-analysis', 'text-generation', ...]"
+```
+에러 메시지의 available tasks 리스트에 `summarization` 이 없음.
+
+**원인**: Colab 에 설치된 `transformers` 가 **5.x 계열** (`any-to-any`, `keypoint-matching` 같은 최신 task가 보이면 5.x 신호). 5.x 에서는 `summarization` task alias 가 pipeline registry 에서 제외됨.
+
+**해결**: 노트북 상단 install 셀의 핀을 `transformers>=4.45,<5` 로 좁히고 **Runtime → Restart runtime** 후 처음부터 다시 실행.
+이미 본 저장소의 노트북은 이 핀이 적용되어 있어요.
+
+**즉시 우회 (런타임 재시작 없이)**: Section 5 의 셀을 다음처럼 모델 ID 를 명시:
+```python
+summarizer = pipeline(model="sshleifer/distilbart-cnn-12-6", device=device)
+```
+`task` 인자 없이 모델만 주면 모델 config 에서 task 가 자동 감지되어 5.x 에서도 동작합니다.
+
+---
+
 ## ❌ Section 2 sentiment-analysis 가 한국어를 잘 못 알아봐요
 
 **원인**: Section 2 의 모델 (`distilbert-base-uncased-finetuned-sst-2-english`) 은 영어 SST-2 로만 학습됨.
