@@ -21,9 +21,9 @@
 
 | 노트북 | 용도 | Colab |
 |---|---|---|
-| **학생용 빈칸** | 세션 당일 직접 채우며 따라오기 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GDG-SKKU/AI-Track-Day-1/blob/main/notebooks/01_student_blank.ipynb) |
-| **학생용 완성본** | 막혔을 때 참조용 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GDG-SKKU/AI-Track-Day-1/blob/main/notebooks/02_student_complete.ipynb) |
-| **강사용 솔루션** | 발표 노트·흔한 실수·토론 질문 포함 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GDG-SKKU/AI-Track-Day-1/blob/main/notebooks/03_instructor_solutions.ipynb) |
+| **학생용 빈칸** | 세션 당일 직접 채우며 따라오기 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BetaTester772/AI-Track-Day-1/blob/main/notebooks/01_student_blank.ipynb) |
+| **학생용 완성본** | 막혔을 때 참조용 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BetaTester772/AI-Track-Day-1/blob/main/notebooks/02_student_complete.ipynb) |
+| **강사용 솔루션** | 발표 노트·흔한 실수·토론 질문 포함 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BetaTester772/AI-Track-Day-1/blob/main/notebooks/03_instructor_solutions.ipynb) |
 
 ### 방법 B. `.ipynb` 파일을 직접 공유 (카카오톡·메일 등)
 
