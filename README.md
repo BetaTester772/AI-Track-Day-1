@@ -1,5 +1,5 @@
 # GDG on Campus SKKU — AI Track Day 1
-## 🤗 Hugging Face Hands-on: 텍스트 임베딩·분류 & 텍스트 생성
+## 🤗 Language Task: 텍스트 임베딩·분류 & 텍스트 생성
 
 > 🎓 **GDG on Campus SKKU 2026 — AI Track Week 1** 발표 자료 + 실습 노트북
 > 발표자: 안호성 ([@BetaTester772](https://github.com/BetaTester772))
