@@ -7,7 +7,7 @@
 - [ ] 모든 노트북을 Colab 무료 T4 GPU 런타임에서 처음부터 끝까지 실행
 - [ ] 각 모델 첫 다운로드 시간을 측정하고 아래 표에 갱신 (BART-large 가 가장 오래 걸림)
 - [ ] T4 GPU 메모리 사용량 피크 확인 (`!nvidia-smi` 를 섹션 사이사이에 직접 실행해보기)
-- [ ] `transformers>=4.45` 가 정상 설치되는지 확인 (4.44 이하에선 SmolLM2 chat template 깨짐)
+- [ ] `transformers>=4.45,<5` 가 정상 설치되는지 확인 (4.44 이하: SmolLM2 chat template 깨짐 / 5.x: summarization task alias 제외)
 - [ ] IMDb / AG News 데이터셋이 정상 로드되는지 확인 (간혹 HF Hub 일시 장애)
 
 ## 발표 1일 전
