@@ -64,7 +64,7 @@ The robot said hello again.
 
 **해결**:
 - 프롬프트를 더 구체적으로: `"Write a 3-sentence story about a robot who learns to paint"`
-- `temperature` 를 0.5–0.8 사이로 (너무 낮으면 반복, 너무 높으면 영뚱)
+- `temperature` 를 0.5–0.8 사이로 (너무 낮으면 반복, 너무 높으면 엉뚱)
 - `do_sample=True` 인지 다시 확인
 - 더 좋은 결과를 원하면 더 큰 모델 (예: `Qwen/Qwen2.5-1.5B-Instruct`, `meta-llama/Llama-3.2-3B-Instruct`) 사용
 
